@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="js/scripts.js"></script>
+  <title>Voting</title>
+</head>
+<body>
+  <div>
+    <form>
+      <label for="age">We need to verify your age before continuing. How old will you be on the day of the next election? (11/08/2022)</label>
+      <input id="age" type="number">
+      <button type="submit">Submit!</button>
+    </form>
+
+    <div id="voting" class="hidden">
+      <h1 id="pollingPlaces"></h1>
+      <h1>Ballot Drop Sites</h2>
+      <p>Ballots can be delivered to any Oregon Official Ballot Drop Site until 8:00 PM on Election Day. Voters who are in line at 8:00 PM may drop off their ballot.</p>
+      <ul>North Portland:
+        <li>Green Zebra Grocery</li>
+        <li>Kenton Library</li>
+        <li>North Portland Library</li>
+        <li>McCoy Park</li>
+        <li>St. Johns Library</li>
+      </ul>
+      <ul>Northeast Portland:
+        <li>Albina Library</li>
+        <li>Gregory Heights Library</li>
+        <li>Hollywood Library</li>
+        <li>McDonald's Restauraunt</li>
+        <li>Parkrose Neighborhood</li>
+      </ul>  
+      <ul>Northwest Portland:
+        <li>Northwest Library</li>
+      </ul>
+      <ul>Southeast Portland:
+        <li>Multnomah County Library</li>
+        <li>Holgate Library</li>
+        <li>Midland Library</li>
+        <li>Belmont Library</li>
+      </ul>
+      <ul>Gresham:
+        <li>Gresham Library</li>
+        <li>Voting Center Express</li>
+      </ul>
+      <ul>Fairview:
+        <li>Fairview-Columbia Library</li>
+      </ul>
+      <ul>Troutdale:
+        <li>Troutdale Library</li>
+      </ul>
+
+      <h2>Multnomah County Elections Voter Service Location</h2>
+      <p>Multnomah County Duniway-Lovejoy Elections Building<br>
+        1040 SE Morrison Street, Portland, OR 97214<br>
+        Phone: 503-988-VOTE (8683) | Fax: 503-988-3719 | 711 (Oregon Relay Service)</p>
+    </div>
+
+    <div id="underage" class="hidden">
+      <h1>Sorry, you can't vote yet!</h1>
+      <p>You may be too young to vote, but you're never too young to learn about voting! Here are some resources for you:</p>
+      <p><a href="https://kids.britannica.com/kids/article/voting/400199">Voting on the Kids Britannica website</a></p>
+      <p><a href="https://drexel.edu/news/archive/2020/october/why-your-student-vote-matters">Why your vote matters</a></a></p>
+    
+    </div>
+  </div>
+</body>
+</html>
